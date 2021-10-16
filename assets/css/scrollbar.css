@@ -1,0 +1,40 @@
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: mediumpurple;
+    border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 70, 162);
+
+}
+
+.slider-caseiro {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+
+.slider-caseiro img {
+    width: 260px;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 8px;
+}
+
+.img-box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow-x: scroll;
+    border-radius: 8px;
+    padding: 10px;
+}

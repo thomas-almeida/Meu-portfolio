@@ -1,0 +1,83 @@
+.user-post-area {
+    padding: 20px;
+    background-color: blueviolet;
+    background-image: url('https://cdn.dribbble.com/users/2504/screenshots/16659887/media/29ec5dd178457de16f322935ebc512a0.jpg?compress=1&resize=1200x900');
+    background-position: center;
+    background-size: 100%;
+}
+
+.user-post-section {
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    padding-left: 0;
+    width: 40%;
+}
+
+.user-post-text {
+    display: flex;
+    justify-content: center;
+}
+
+.user-post-text>section {
+    border: 1px solid rgb(163, 163, 163);
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.604);
+    transition: transform .2s;
+}
+
+.user-post-text>section:hover{
+    transform: scale(1.1);
+}
+
+.post-area {
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12pt;
+    border: none;
+    line-height: 24px;
+}
+
+.post-area:focus {
+    outline: 0;
+}
+
+.user-post-area img {
+    margin: 10px;
+}
+
+#pic-intro {
+    width: 50px;
+    padding-left: 0;
+}
+
+.post-description {
+    text-align: justify;
+}
+
+
+.title-project{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.title-project b{
+    background-color: rgb(0, 197, 99);
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+.project-logo{
+    width: 30px;
+    margin-right: 10px;
+}

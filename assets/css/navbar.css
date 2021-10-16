@@ -1,0 +1,31 @@
+.navbar{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14pt;
+}
+
+.navbar a:hover{
+    color: gray;
+
+}
+
+.picture-box{
+    width: 40px;
+    border-radius: 100%;
+}

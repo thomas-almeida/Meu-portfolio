@@ -1,0 +1,121 @@
+.post-feed {
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    margin: 20px;
+    width: 620px;
+
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px mediumpurple;
+}
+
+.actions {
+    padding: 20px;
+    padding-left: 0;
+}
+
+.actions a {
+    text-decoration: none;
+    border: 1px solid mediumpurple;
+    color: mediumpurple;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.actions section{
+    margin: 15px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.actions a:hover {
+    background-color: mediumpurple;
+    border: none;
+    color: white;
+}
+
+.post-image {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.post-image img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+.post-description {
+    padding: 10px;
+    font-size: 14pt;
+    line-height: 25px;
+}
+
+
+.github-section {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.github-section a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.profile-img-post {
+    padding: 10px;
+}
+
+.time-posted {
+    padding: 10px;
+}
+
+#image-path {
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+    padding-left: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+}
+
+#pic-box {
+    border-radius: 100%;
+    width: 60px;
+}
+
+.input-assets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-assets input {
+    padding: 10px;
+}
+
+
+.post-image img{
+    width: 500px;
+    text-align: center;
+}
+
+#feedSubtitle{
+    padding-left: 16px;
+    padding-bottom: 15px;
+}
+
+.post-feed p{
+    font-weight: 600px;
+}

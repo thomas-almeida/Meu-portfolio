@@ -1,0 +1,58 @@
+@import url('navbar.css');
+@import url('user-post.css');
+@import url('post-feed.css');
+@import url('slider.css');
+@import url('scrollbar.css');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-content {
+    padding: 10px;
+    width: 60%;
+}
+
+.arroba {
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 14pt;
+}
+
+.username-link {
+    display: flex;
+    align-items: center;
+}
+
+#username{
+    font-size: 2rem;
+    width: 300px;
+}
+
+.notify{
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 197, 99);
+    display: none;
+}
+
+.notify a{
+    margin-left: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.javascript{
+    background-color: gold;
+    padding: 2px;
+    border-radius: 5px;
+}
