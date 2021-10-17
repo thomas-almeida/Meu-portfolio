@@ -1,0 +1,20 @@
+
+.more{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 1px solid mediumpurple;
+    box-shadow: 2px 2px 3px mediumpurple;
+    border-radius: 10px;
+}
+
+.more img{
+    width: 30px;
+}
+
+.more p{
+    color: mediumpurple;
+    padding-left: 10px;
+}

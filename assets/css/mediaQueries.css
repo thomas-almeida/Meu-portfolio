@@ -1,0 +1,33 @@
+@media only screen and (max-width: 600px) {
+   
+
+    .container-content{
+        width: 100%;
+        padding: 0;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .user-post-area {
+        padding: 0;
+    }
+
+    .user-post-section h1 {
+        font-size: 1rem;
+    }
+
+    .user-post-text>section {
+        padding: 0;
+    }
+
+    .user-post-text>section p {
+        font-size: 10pt;
+    }
+
+    .post {
+        width: 100%;
+    }
+
+}

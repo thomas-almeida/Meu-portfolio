@@ -11,10 +11,10 @@
 
         <ul>
             <li><a href="../index.php"><img src="./assets/images/profile-pic.png" alt="Perfil" class="picture-box"></a></li>
-            <li><a href="#" id="all-posts">Todos os Posts</a></li>
+            <li><a class="hide-mobile" href="#" id="all-posts">Todos os Posts</a></li>
             <li><a href="#" id="news-posts">Novos</a></li>
-            <li><a href="https://github.com/ThomAlmeidaRD" target="_blank">Github</a></li>
-            <li><a href="mailto:contato.thomasalmeidard@gmail.com">Email</a></li>
+            <li><a class="hide-mobile" href="https://github.com/ThomAlmeidaRD" target="_blank">Github</a></li>
+            <li><a href="https://open.spotify.com/show/5p2F6oMfOXLNz1reJifOI8" target="_blank">Podcast</a></li>
         </ul>
 
     </nav>

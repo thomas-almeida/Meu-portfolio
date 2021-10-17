@@ -34,7 +34,7 @@
                         <h1 id="username">Thomas Almeida</h1>
                         <section class="username-link">
                             <a href="https://www.instagram.com/nego.thomm/" target="_blank" class="arroba">&#128247@nego.thomm</a>
-                            <img src="assets/images/verficado.png" alt="">
+                          
                         </section>
                     </section>
                 </section>
@@ -66,8 +66,6 @@
 
                     <br>
                     <h2 id="feedSubtitle">Feed de projetos 📰</h2>
-
-
 
                     <section class="post">
 
@@ -115,7 +113,6 @@
 
 
                     </section>
-
 
                     <section class="post">
 
@@ -211,6 +208,13 @@
                             <a href="https://developer.mozilla.org/pt-BR/docs/Web/javascript" target="_blank" class="remove-btn" id="jscript"><img src="">JS</a>
                         </section>
                     </section>
+
+                    <br>
+
+                    <?php
+                    //Navbar included
+                    include 'assets/includes/more.php';
+                    ?>
 
                 </section>
 
